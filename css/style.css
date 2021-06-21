@@ -563,6 +563,13 @@ a {
 
 
 
+#request .submit_request_btn button{
+  background-color: var(--secondary-light);
+  color: #fff;
+  text-align: center;
+  
+}
+
 /* request section  */
 #request .img {
   width: 100%;
@@ -577,6 +584,7 @@ a {
 }
 #request .forms label{
   color: var(--title-color);
+  margin-bottom: 10px;
 }
 
 #request .forms textarea{
