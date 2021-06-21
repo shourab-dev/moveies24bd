@@ -1,0 +1,1284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/favicon.png" type="image/png" sizes="16x16" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <title>Movies24bd.com - Get All your desired movies for free</title>
+  </head>
+  <body >
+
+<!-- back to top  option -->
+
+<div class="back_to_top">
+  <span class="btn shadow">
+    <i class="fas fa-chevron-up"></i>
+  </span>
+</div>
+
+
+<!-- back to top option end -->
+
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg mycusnav">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="./img/logo.png" alt="" / style="height: 50px;">
+          <span style="padding-top: 16px; padding-left: 5px;">|Movies24Bd</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <!-- search on small device -->
+        <div class="small_device_small_toggler d-block d-lg-none">
+          <span class="btn"><i class="fas fa-search"></i></span>
+        </div>
+        <!-- search on small device -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-lg-auto mb-2 mb-lg-0">
+           
+            <li class="nav-item">
+              <div class="dark_mode_toggler d-lg-none d-block">
+               <div class="cnt">
+                <p>Dark Mood</p> <span><i class="fas fa-adjust"></i></span>
+               </div>
+              </div>
+            <li class="nav-item active">
+              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown d-block d-lg-none">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Categories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
+                <li><a class="dropdown-item" href="#">All</a></li>
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Adventure</a></li>
+                <li><a class="dropdown-item" href="#">Animation</a></li>
+                <li><a class="dropdown-item" href="#">Comedy</a></li>
+                <li><a class="dropdown-item" href="#">Documentary</a></li>
+                <li><a class="dropdown-item" href="#">Drama</a></li>
+                <li><a class="dropdown-item" href="#">Family</a></li>
+                <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                <li><a class="dropdown-item" href="#">History</a></li>
+                <li><a class="dropdown-item" href="#">Horror</a></li>
+                <li><a class="dropdown-item" href="#">Music</a></li>
+                <li><a class="dropdown-item" href="#">Mystery</a></li>
+                <li><a class="dropdown-item" href="#">Sci-Fi</a></li>
+                <li><a class="dropdown-item" href="#">Sport</a></li>
+                <li><a class="dropdown-item" href="#">Thriller</a></li>
+                <li><a class="dropdown-item" href="#">War</a></li>
+                <li><a class="dropdown-item" href="#">Western</a></li>
+              </ul>
+            </li>
+            <li class="nav-item d-lg-block d-none">
+              <a class="nav-link" aria-current="page" href="#">Movies</a>
+              <div class="sub-menu">
+                <ul>
+                  <li><a href="#">All</a></li>
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Adventure</a></li>
+                  <li><a href="#">Animation</a></li>
+                  <li><a href="#">Comedy</a></li>
+                  <li><a href="#">Documentary</a></li>
+                  <li><a href="#">Drama</a></li>
+                  <li><a href="#">Family</a></li>
+                  <li><a href="#">History</a></li>
+                  <li><a href="#">Horror</a></li>
+                  <li><a href="#">Music</a></li>
+                  <li><a href="#">Mystery</a></li>
+                  <li><a href="#">Sci-Fi</a></li>
+                  <li><a href="#">Sport</a></li>
+                  <li><a href="#">Thriller</a></li>
+                  <li><a href="#">War</a></li>
+                  <li><a href="#">Western</a></li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="nav-item d-lg-none d-block">
+              <a class="nav-link" aria-current="page" href="#">
+                Movies
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">
+                Tv Series
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="movie.html">Anime</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">
+                Top IMBD
+              </a>
+            </li>
+            
+          </ul>
+
+          <form class="d-lg-flex d-none">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="search_btn btn" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+          <div class="dark_mode_toggler d-none d-lg-block">
+            <span><i class="fas fa-adjust"></i></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- nav ends -->
+    <!-- mobile search form -->
+    <section id="mobile_search_form">
+      <div class="container">
+        <div class="row">
+          <div class="d-block d-lg-none col-12">
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="search_btn btn" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+        </div>
+      </div>
+    </section>
+    <!-- mobile search form end -->
+<!-- banner section starts here -->
+    <section id="banner" class="swiper-container myswiper">
+      
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background: url(http://anniehaydesign.weebly.com/uploads/9/5/4/6/95469676/landscape-poster-3_orig.jpg);">
+          
+  <div class="container">
+    <div class="row">
+      <div class="banner_cnt">
+        <h2>Captain America: The Winter Soldier</h2>
+        <p>As Steve Rogers adapts to the complexities of a contemporary world, he joins Natasha Romanoff and Sam Wilson in his mission to uncover the secret behind a deadly, mysterious assassin.</p>
+        <a href="#" class="btn btn-lg">
+         <span> Read More</span> <span><i class="fas fa-chevron-right"></i></span>
+        </a>
+      </div>
+    </div>
+  </div>
+          
+          
+          </div>
+          <div class="swiper-slide" style="background: url(https://i.pinimg.com/originals/42/75/01/42750115d68a876558e7e0115b6600c8.jpg);">
+            <div class="container">
+              <div class="row">
+                <div class="banner_cnt">
+                  <h2>Captain America: The Winter Soldier</h2>
+                  <p>As Steve Rogers adapts to the complexities of a contemporary world, he joins Natasha Romanoff and Sam Wilson in his mission to uncover the secret behind a deadly, mysterious assassin.</p>
+                  <a href="#" class="btn btn-lg">
+                   <span> Read More</span> <span><i class="fas fa-chevron-right"></i></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+                    </div>
+          <div class="swiper-slide" style="background: url(https://ebahrenburg.files.wordpress.com/2016/05/the_avengers_poster-banner.jpg);">
+            <div class="container">
+              <div class="row">
+                <div class="banner_cnt">
+                  <h2>Captain America: The Winter Soldier</h2>
+                  <p>As Steve Rogers adapts to the complexities of a contemporary world, he joins Natasha Romanoff and Sam Wilson in his mission to uncover the secret behind a deadly, mysterious assassin.</p>
+                  <a href="#" class="btn btn-lg">
+                   <span> Read More</span> <span><i class="fas fa-chevron-right"></i></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+                    </div>
+          <div class="swiper-slide" style="background: url(https://lh3.googleusercontent.com/proxy/jauxubzKAsib7SOyKoCHNc7nUqv59V2n-2acHOgIrUn7EZMI4Z87BIz2Ev07EHmcTXAbqWGVXWC7d7wZKlJY4llPNf-KlX4yz82cWOe3d4OhPCnmQjnrHFsAYKDM3JMikytkIjXCgfX3H-XPo19foTlhy9Rqgur1gR70CWSz0Pf3KIu07rqiwFEsZLuY3HkjK4T_pljtsvArLLP_Kq6ZszPvulY8OZTZ1DqR4xJlnqG61QVZhF29U0E_zrXjDS1m4zsg=s0-d);">
+            <div class="container">
+              <div class="row">
+                <div class="banner_cnt">
+                  <h2>Captain America: The Winter Soldier</h2>
+                  <p>As Steve Rogers adapts to the complexities of a contemporary world, he joins Natasha Romanoff and Sam Wilson in his mission to uncover the secret behind a deadly, mysterious assassin.</p>
+                  <a href="#" class="btn btn-lg">
+                   <span> Read More</span> <span><i class="fas fa-chevron-right"></i></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+                    </div>
+          <div class="swiper-slide" style="background: url(https://wallpapercave.com/wp/wp4576866.jpg);">
+            <div class="container">
+              <div class="row">
+                <div class="banner_cnt">
+                  <h2>Captain America: The Winter Soldier</h2>
+                  <p>As Steve Rogers adapts to the complexities of a contemporary world, he joins Natasha Romanoff and Sam Wilson in his mission to uncover the secret behind a deadly, mysterious assassin.</p>
+                  <a href="#" class="btn btn-lg">
+                   <span> Read More</span> <span><i class="fas fa-chevron-right"></i></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+                    </div>
+          <div class="swiper-slide" style="background: url(https://cdn.europosters.eu/image/1300/posters/assassin-s-creed-valhalla-vista-i97790.jpg);">
+            <div class="container">
+              <div class="row">
+                <div class="banner_cnt">
+                  <h2>Captain America: The Winter Soldier</h2>
+                  <p>As Steve Rogers adapts to the complexities of a contemporary world, he joins Natasha Romanoff and Sam Wilson in his mission to uncover the secret behind a deadly, mysterious assassin.</p>
+                  <a href="#" class="btn btn-lg">
+                   <span> Read More</span> <span><i class="fas fa-chevron-right"></i></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+                    </div>
+          <div class="swiper-slide" style="background: url(https://www.goplacesdigital.com/wp-content/uploads/2019/12/Jumanji-The-Next-Level-Video-Game-Players-Cosplay-Costume-Props-DIY-Guide.jpg);">
+            <div class="container">
+              <div class="row">
+                <div class="banner_cnt">
+                  <h2>Captain America: The Winter Soldier</h2>
+                  <p>As Steve Rogers adapts to the complexities of a contemporary world, he joins Natasha Romanoff and Sam Wilson in his mission to uncover the secret behind a deadly, mysterious assassin.</p>
+                  <a href="#" class="btn btn-lg">
+                   <span> Read More</span> <span><i class="fas fa-chevron-right"></i></span>
+                  </a>
+                </div>
+              </div>
+            </div>
+                    </div>
+  
+        </div>
+        <div class="swiper-pagination"></div>
+   
+    </section>
+
+<!-- banner section ends here -->
+
+<!-- Top Trending Movies -->
+<section id="trend_movies">
+  <div class="container">
+    <div class="title">
+      <h2>Top Trending Movies</h2>
+    </div>
+  
+
+  <div class="tred_movies_card">
+    <div class="row">
+
+
+
+      
+      <div class="col-lg-3 col-6">
+      
+        <div class="tred_card">
+          <a href="#">
+  
+  <div class="img">
+    <img src="https://m.media-amazon.com/images/M/MV5BMjQ2ODIyMjY4MF5BMl5BanBnXkFtZTgwNzY4ODI2NzM@._V1_.jpg" alt="">
+
+    <div class="overlay">
+      <div class="overlay_cnt">
+        <h4>
+          King Kong Vs Godzilla
+        </h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+       <div class="download_btn">
+        <span>Download</span>
+       </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="text">
+    <h5>
+      king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+    <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+  </div>
+
+  
+</a>
+        </div>
+      
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="tred_card">
+          <a href="#">
+            <div class="img">
+              <img src="https://external-preview.redd.it/vGPSCKXx8izkEvD1VBT_P3p2pFh6FB4QLGnr2vAZVQY.jpg?auto=webp&s=81e9ffafee1fde68a30f7a748991db0c2121ec64" alt=""> <div class="overlay">
+                <div class="overlay_cnt">
+                  <h4>
+                    King Kong Vs Godzilla
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+                 <div class="download_btn">
+                  <span href="#">Download</span>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <h5>
+                king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+              <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="tred_card">
+         <a href="#">
+          <div class="img">
+            <img src="https://i.pinimg.com/originals/4b/c6/f0/4bc6f0460257639823de408c2136106e.jpg" alt=""> <div class="overlay">
+              <div class="overlay_cnt">
+                <h4>
+                  King Kong Vs Godzilla
+                </h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+               <div class="download_btn">
+                <span href="#">Download</span>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="text">
+            <h5>
+              king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+            <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+          </div>
+         </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="tred_card">
+          <a href="#">
+            <div class="img">
+              <img src="https://i.insider.com/5ca3bed692c88634ca2ee223?width=750&format=jpeg&auto=webp" alt=""> <div class="overlay">
+                <div class="overlay_cnt">
+                  <h4>
+                    King Kong Vs Godzilla
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+                 <div class="download_btn">
+                  <span href="#">Download</span>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <h5>
+                king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+              <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="tred_card">
+          <a href="#">
+            <div class="img">
+              <img src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/sffh_venice-high-res.jpg" alt=""> <div class="overlay">
+                <div class="overlay_cnt">
+                  <h4>
+                    King Kong Vs Godzilla
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+                 <div class="download_btn">
+                  <span href="#">Download</span>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <h5>
+                king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+              <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="tred_card">
+          <a href="#">
+            <div class="img">
+              <img src="https://i.pinimg.com/originals/f3/08/7c/f3087cf1334fc520f39e0a91d058f608.jpg" alt=""> <div class="overlay">
+                <div class="overlay_cnt">
+                  <h4>
+                    King Kong Vs Godzilla
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+                 <div class="download_btn">
+                  <span href="#">Download</span>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <h5>
+                king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+              <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+            </div>
+          </a>
+        </div>
+     
+    </div>
+    <div class="col-lg-3 col-6">
+      <div class="tred_card">
+       <a href="#">
+        <div class="img">
+          <img src="https://static.wikia.nocookie.net/xmenmovies/images/c/c5/Deadpool_Official_Poster.jpg/revision/latest?cb=20160423052513" alt=""> <div class="overlay">
+              <div class="overlay_cnt">
+                <h4>
+                  King Kong Vs Godzilla
+                </h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+               <div class="download_btn">
+                <span>Download</span>
+               </div>
+              </div>
+            </div>
+        </div>
+        <div class="text">
+          <h5>
+            king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+          <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+        </div>
+       </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-6">
+      <div class="tred_card">
+       <a href="#">
+        <div class="img">
+          <img src="https://mlpnk72yciwc.i.optimole.com/cqhiHLc.WqA8~2eefa/w:600/h:888/q:75/https://bleedingcool.com/wp-content/uploads/2021/03/godzilla_vs_kong_ver12_xlg.jpg" alt=""> <div class="overlay">
+              <div class="overlay_cnt">
+                <h4>
+                  King Kong Vs Godzilla
+                </h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+               <div class="download_btn">
+                <span>Download</span>
+               </div>
+              </div>
+            </div>
+        </div>
+        <div class="text">
+          <h5>
+            king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+          <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+        </div>
+       </a>
+      </div>
+    </div>
+
+
+
+  </div>
+</div>
+
+<div class="view_more_btn text-center">
+  <a href="#" class="btn">
+    View More
+  </a>
+</div>
+
+</div>
+
+</section>
+<!-- Top Trending Movies end -->
+
+
+<!-- New Realised MOvies -->
+<section id="new_movies">
+  <div class="container">
+    <div class="title">
+      <h2>Newly Realised Movies</h2>
+    </div>
+  
+
+  <div class="tred_movies_card">
+    <div class="row">
+
+
+
+      
+      <div class="col-lg-3 col-6">
+      
+        <div class="tred_card">
+          <a href="#">
+  
+  <div class="img">
+    <img src="https://m.media-amazon.com/images/M/MV5BMjQ2ODIyMjY4MF5BMl5BanBnXkFtZTgwNzY4ODI2NzM@._V1_.jpg" alt="">
+
+    <div class="overlay">
+      <div class="overlay_cnt">
+        <h4>
+          King Kong Vs Godzilla
+        </h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+       <div class="download_btn">
+        <span>Download</span>
+       </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="text">
+    <h5>
+      king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+    <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+  </div>
+
+  
+</a>
+        </div>
+      
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="tred_card">
+          <a href="#">
+            <div class="img">
+              <img src="https://external-preview.redd.it/vGPSCKXx8izkEvD1VBT_P3p2pFh6FB4QLGnr2vAZVQY.jpg?auto=webp&s=81e9ffafee1fde68a30f7a748991db0c2121ec64" alt=""> <div class="overlay">
+                <div class="overlay_cnt">
+                  <h4>
+                    King Kong Vs Godzilla
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+                 <div class="download_btn">
+                  <span href="#">Download</span>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <h5>
+                king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+              <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="tred_card">
+         <a href="#">
+          <div class="img">
+            <img src="https://i.pinimg.com/originals/4b/c6/f0/4bc6f0460257639823de408c2136106e.jpg" alt=""> <div class="overlay">
+              <div class="overlay_cnt">
+                <h4>
+                  King Kong Vs Godzilla
+                </h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+               <div class="download_btn">
+                <span href="#">Download</span>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="text">
+            <h5>
+              king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+            <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+          </div>
+         </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="tred_card">
+          <a href="#">
+            <div class="img">
+              <img src="https://i.insider.com/5ca3bed692c88634ca2ee223?width=750&format=jpeg&auto=webp" alt=""> <div class="overlay">
+                <div class="overlay_cnt">
+                  <h4>
+                    King Kong Vs Godzilla
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+                 <div class="download_btn">
+                  <span href="#">Download</span>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <h5>
+                king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+              <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="tred_card">
+          <a href="#">
+            <div class="img">
+              <img src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/sffh_venice-high-res.jpg" alt=""> <div class="overlay">
+                <div class="overlay_cnt">
+                  <h4>
+                    King Kong Vs Godzilla
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+                 <div class="download_btn">
+                  <span href="#">Download</span>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <h5>
+                king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+              <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="tred_card">
+          <a href="#">
+            <div class="img">
+              <img src="https://i.pinimg.com/originals/f3/08/7c/f3087cf1334fc520f39e0a91d058f608.jpg" alt=""> <div class="overlay">
+                <div class="overlay_cnt">
+                  <h4>
+                    King Kong Vs Godzilla
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+                 <div class="download_btn">
+                  <span href="#">Download</span>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <h5>
+                king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+              <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+            </div>
+          </a>
+        </div>
+     
+    </div>
+    <div class="col-lg-3 col-6">
+      <div class="tred_card">
+       <a href="#">
+        <div class="img">
+          <img src="https://static.wikia.nocookie.net/xmenmovies/images/c/c5/Deadpool_Official_Poster.jpg/revision/latest?cb=20160423052513" alt=""> <div class="overlay">
+              <div class="overlay_cnt">
+                <h4>
+                  King Kong Vs Godzilla
+                </h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+               <div class="download_btn">
+                <span>Download</span>
+               </div>
+              </div>
+            </div>
+        </div>
+        <div class="text">
+          <h5>
+            king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+          <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+        </div>
+       </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-6">
+      <div class="tred_card">
+       <a href="#">
+        <div class="img">
+          <img src="https://mlpnk72yciwc.i.optimole.com/cqhiHLc.WqA8~2eefa/w:600/h:888/q:75/https://bleedingcool.com/wp-content/uploads/2021/03/godzilla_vs_kong_ver12_xlg.jpg" alt=""> <div class="overlay">
+              <div class="overlay_cnt">
+                <h4>
+                  King Kong Vs Godzilla
+                </h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+               <div class="download_btn">
+                <span>Download</span>
+               </div>
+              </div>
+            </div>
+        </div>
+        <div class="text">
+          <h5>
+            king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+          <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+        </div>
+       </a>
+      </div>
+    </div>
+
+
+    
+  </div>
+</div>
+<div class="view_more_btn text-center">
+  <a href="#" class="btn">
+    View More
+  </a>
+</div>
+</div>
+
+</section>
+<!-- New Realised MOvies end -->
+
+<!-- anime movies start -->
+<section id="anime">
+  <div class="container">
+    <div class="title">
+      <h2>Animation</h2>
+    </div>
+  
+
+  <div class="tred_movies_card">
+    <div class="row">
+
+
+
+      
+      <div class="col-lg-3 col-6">
+      
+        <div class="tred_card">
+          <a href="#">
+  
+  <div class="img">
+    <img src="https://m.media-amazon.com/images/M/MV5BMjQ2ODIyMjY4MF5BMl5BanBnXkFtZTgwNzY4ODI2NzM@._V1_.jpg" alt="">
+
+    <div class="overlay">
+      <div class="overlay_cnt">
+        <h4>
+          King Kong Vs Godzilla
+        </h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+       <div class="download_btn">
+        <span>Download</span>
+       </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="text">
+    <h5>
+      king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+    <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+  </div>
+
+  
+</a>
+        </div>
+      
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="tred_card">
+          <a href="#">
+            <div class="img">
+              <img src="https://external-preview.redd.it/vGPSCKXx8izkEvD1VBT_P3p2pFh6FB4QLGnr2vAZVQY.jpg?auto=webp&s=81e9ffafee1fde68a30f7a748991db0c2121ec64" alt=""> <div class="overlay">
+                <div class="overlay_cnt">
+                  <h4>
+                    King Kong Vs Godzilla
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+                 <div class="download_btn">
+                  <span href="#">Download</span>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <h5>
+                king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+              <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="tred_card">
+         <a href="#">
+          <div class="img">
+            <img src="https://i.pinimg.com/originals/4b/c6/f0/4bc6f0460257639823de408c2136106e.jpg" alt=""> <div class="overlay">
+              <div class="overlay_cnt">
+                <h4>
+                  King Kong Vs Godzilla
+                </h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+               <div class="download_btn">
+                <span href="#">Download</span>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="text">
+            <h5>
+              king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+            <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+          </div>
+         </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="tred_card">
+          <a href="#">
+            <div class="img">
+              <img src="https://i.insider.com/5ca3bed692c88634ca2ee223?width=750&format=jpeg&auto=webp" alt=""> <div class="overlay">
+                <div class="overlay_cnt">
+                  <h4>
+                    King Kong Vs Godzilla
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+                 <div class="download_btn">
+                  <span href="#">Download</span>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <h5>
+                king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+              <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="tred_card">
+          <a href="#">
+            <div class="img">
+              <img src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/sffh_venice-high-res.jpg" alt=""> <div class="overlay">
+                <div class="overlay_cnt">
+                  <h4>
+                    King Kong Vs Godzilla
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+                 <div class="download_btn">
+                  <span href="#">Download</span>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <h5>
+                king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+              <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="tred_card">
+          <a href="#">
+            <div class="img">
+              <img src="https://i.pinimg.com/originals/f3/08/7c/f3087cf1334fc520f39e0a91d058f608.jpg" alt=""> <div class="overlay">
+                <div class="overlay_cnt">
+                  <h4>
+                    King Kong Vs Godzilla
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+                 <div class="download_btn">
+                  <span href="#">Download</span>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <h5>
+                king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+              <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+            </div>
+          </a>
+        </div>
+     
+    </div>
+    <div class="col-lg-3 col-6">
+      <div class="tred_card">
+       <a href="#">
+        <div class="img">
+          <img src="https://static.wikia.nocookie.net/xmenmovies/images/c/c5/Deadpool_Official_Poster.jpg/revision/latest?cb=20160423052513" alt=""> <div class="overlay">
+              <div class="overlay_cnt">
+                <h4>
+                  King Kong Vs Godzilla
+                </h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+               <div class="download_btn">
+                <span>Download</span>
+               </div>
+              </div>
+            </div>
+        </div>
+        <div class="text">
+          <h5>
+            king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+          <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+        </div>
+       </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-6">
+      <div class="tred_card">
+       <a href="#">
+        <div class="img">
+          <img src="https://mlpnk72yciwc.i.optimole.com/cqhiHLc.WqA8~2eefa/w:600/h:888/q:75/https://bleedingcool.com/wp-content/uploads/2021/03/godzilla_vs_kong_ver12_xlg.jpg" alt=""> <div class="overlay">
+              <div class="overlay_cnt">
+                <h4>
+                  King Kong Vs Godzilla
+                </h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+               <div class="download_btn">
+                <span>Download</span>
+               </div>
+              </div>
+            </div>
+        </div>
+        <div class="text">
+          <h5>
+            king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+          <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+        </div>
+       </a>
+      </div>
+    </div>
+
+
+    
+  </div>
+</div>
+<div class="view_more_btn text-center">
+  <a href="#" class="btn">
+    View More
+  </a>
+</div>
+</div>
+
+</section>
+<!-- anime movies  end-->
+
+
+<!-- tv series -->
+<section id="tv_series">
+  <div class="container">
+    <div class="title">
+      <h2>Tv Series</h2>
+    </div>
+  
+
+  <div class="tred_movies_card">
+    <div class="row">
+
+
+
+      
+      <div class="col-lg-3 col-6">
+      
+        <div class="tred_card">
+          <a href="#">
+  
+  <div class="img">
+    <img src="https://m.media-amazon.com/images/M/MV5BMjQ2ODIyMjY4MF5BMl5BanBnXkFtZTgwNzY4ODI2NzM@._V1_.jpg" alt="">
+
+    <div class="overlay">
+      <div class="overlay_cnt">
+        <h4>
+          King Kong Vs Godzilla
+        </h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+       <div class="download_btn">
+        <span>Download</span>
+       </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="text">
+    <h5>
+      king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+    <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+  </div>
+
+  
+</a>
+        </div>
+      
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="tred_card">
+          <a href="#">
+            <div class="img">
+              <img src="https://external-preview.redd.it/vGPSCKXx8izkEvD1VBT_P3p2pFh6FB4QLGnr2vAZVQY.jpg?auto=webp&s=81e9ffafee1fde68a30f7a748991db0c2121ec64" alt=""> <div class="overlay">
+                <div class="overlay_cnt">
+                  <h4>
+                    King Kong Vs Godzilla
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+                 <div class="download_btn">
+                  <span href="#">Download</span>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <h5>
+                king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+              <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="tred_card">
+         <a href="#">
+          <div class="img">
+            <img src="https://i.pinimg.com/originals/4b/c6/f0/4bc6f0460257639823de408c2136106e.jpg" alt=""> <div class="overlay">
+              <div class="overlay_cnt">
+                <h4>
+                  King Kong Vs Godzilla
+                </h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+               <div class="download_btn">
+                <span href="#">Download</span>
+               </div>
+              </div>
+            </div>
+          </div>
+          <div class="text">
+            <h5>
+              king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+            <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+          </div>
+         </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="tred_card">
+          <a href="#">
+            <div class="img">
+              <img src="https://i.insider.com/5ca3bed692c88634ca2ee223?width=750&format=jpeg&auto=webp" alt=""> <div class="overlay">
+                <div class="overlay_cnt">
+                  <h4>
+                    King Kong Vs Godzilla
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+                 <div class="download_btn">
+                  <span href="#">Download</span>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <h5>
+                king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+              <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="tred_card">
+          <a href="#">
+            <div class="img">
+              <img src="https://terrigen-cdn-dev.marvel.com/content/prod/1x/sffh_venice-high-res.jpg" alt=""> <div class="overlay">
+                <div class="overlay_cnt">
+                  <h4>
+                    King Kong Vs Godzilla
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+                 <div class="download_btn">
+                  <span href="#">Download</span>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <h5>
+                king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+              <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-6">
+        <div class="tred_card">
+          <a href="#">
+            <div class="img">
+              <img src="https://i.pinimg.com/originals/f3/08/7c/f3087cf1334fc520f39e0a91d058f608.jpg" alt=""> <div class="overlay">
+                <div class="overlay_cnt">
+                  <h4>
+                    King Kong Vs Godzilla
+                  </h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+                 <div class="download_btn">
+                  <span href="#">Download</span>
+                 </div>
+                </div>
+              </div>
+            </div>
+            <div class="text">
+              <h5>
+                king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+              <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+            </div>
+          </a>
+        </div>
+     
+    </div>
+    <div class="col-lg-3 col-6">
+      <div class="tred_card">
+       <a href="#">
+        <div class="img">
+          <img src="https://static.wikia.nocookie.net/xmenmovies/images/c/c5/Deadpool_Official_Poster.jpg/revision/latest?cb=20160423052513" alt=""> <div class="overlay">
+              <div class="overlay_cnt">
+                <h4>
+                  King Kong Vs Godzilla
+                </h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+               <div class="download_btn">
+                <span>Download</span>
+               </div>
+              </div>
+            </div>
+        </div>
+        <div class="text">
+          <h5>
+            king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+          <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+        </div>
+       </a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-6">
+      <div class="tred_card">
+       <a href="#">
+        <div class="img">
+          <img src="https://mlpnk72yciwc.i.optimole.com/cqhiHLc.WqA8~2eefa/w:600/h:888/q:75/https://bleedingcool.com/wp-content/uploads/2021/03/godzilla_vs_kong_ver12_xlg.jpg" alt=""> <div class="overlay">
+              <div class="overlay_cnt">
+                <h4>
+                  King Kong Vs Godzilla
+                </h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur enim molestias provident esse corporis minus vitae laborum incidunt, atque obcaecati!</p>
+               <div class="download_btn">
+                <span>Download</span>
+               </div>
+              </div>
+            </div>
+        </div>
+        <div class="text">
+          <h5>
+            king kong vs godzilla  <span class="d-lg-inline d-none"><i class="fas fa-star"></i> 5.5</span></h5>
+          <p>2015 <span class="d-inline d-md-none"><i class="fas fa-star"></i> 5.5</span></p>
+        </div>
+       </a>
+      </div>
+    </div>
+
+
+    
+  </div>
+</div>
+<div class="view_more_btn text-center">
+  <a href="#" class="btn">
+    View More
+  </a>
+</div>
+</div>
+
+</section>
+<!-- tv series end -->
+
+
+<!-- request section -->
+<section id="request">
+  <div class="container">
+    <div class="title">
+      <h2>Request Movie</h2>
+    </div>
+<div class="row forms">
+  <div class="requestform col-lg-6">
+    <form>
+    
+      
+      <div class="col-12 my-3">
+        <label for="mail">Email Address</label>
+        <input type="text" class="form-control" id="mail">
+      </div>
+      <div class="col-12 my-3">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" class="form-control"></textarea>
+      </div>
+    
+  
+  
+  
+  
+  </form>
+  </div>
+
+ 
+</div>
+</div>
+</section>
+<!-- request section end -->
+
+
+<!-- footer part start here -->
+ <footer>
+<div class="container">
+  <div class="row justify-content-center text-center">
+   <div class="logo">
+    <img src="./img/logo.png" alt=""> 
+   </div>
+    <p class="logo_title">Movies24BD</p>
+    <div class="detail">
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos sapiente error exercitationem inventore consectetur nulla maiores quam, natus quo ipsum dolore, tempora corporis, vel quia a rem quasi excepturi accusantium beatae non. Maxime fugiat nisi officia. Incidunt placeat est distinctio temporibus dolorum, corporis harum quasi.</p>
+    </div>
+   
+  </div>
+</div>
+<div class="copyright text-center">
+  <span> Movies24bd@2014 copyright</span>
+ </div>
+ </footer>
+<!-- footer part end here -->
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
